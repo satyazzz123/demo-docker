@@ -2,7 +2,7 @@
 FROM nginx
 
 # Copy the custom Nginx configuration file
-WORKDIR /app
+WORKDIR /ap
 
 # Expose port 80 (the default port for Nginx)
 EXPOSE 80
